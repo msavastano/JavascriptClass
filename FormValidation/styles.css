@@ -1,0 +1,104 @@
+		
+		
+		.error{
+			color:red;
+			
+		}
+		
+		.errorb{
+			
+			border:1px solid red;
+		}
+		
+		.noError{			
+			border: 1px solid #000;
+		}
+		
+		#fn{
+			
+		}
+		
+		.formDone{
+			display:none;		
+		}
+		
+		#formDiv
+		{
+			text-align:left;
+			background-color:#f0f0f0;
+			padding:0.5em;
+			border: 0.2em solid #000;
+			/*width:40em;*/
+			border-radius:10px;
+			margin:0 auto;	
+			box-shadow:5px 5px 6px #000;			
+		}
+		
+		/*
+		#confirmation{
+			text-align:left;
+			background-color:#f0f0f0;
+			padding:0.5em;
+			border: 0.2em solid #000;
+			width:40em;
+			border-radius:10px;
+			margin:0 auto;	
+			box-shadow:5px 5px 6px #000;		
+		}*/
+		
+		.confirm{
+			text-align:left;
+			background-color:#f0f0f0;
+			padding:0.5em;
+			border: 0.2em solid #000;
+			
+			border-radius:10px;
+			margin:0 auto;	
+			box-shadow:5px 5px 6px #000;
+			display:block;
+		}
+		
+		.confirm h3{
+			color:red;
+		}
+		
+		.confirm span{
+			padding-left:20px;
+		}
+		
+		p
+		{
+			font-family:Georgia;						
+		}
+		
+		input[type=text]
+		{
+			padding: .5em;		
+		}
+		
+		input[type=email]
+		{
+			padding: .5em;		
+		}
+		
+		input[type=button]
+		{
+			background-color:#336600;
+			color:#fff;			
+		}
+		
+		textarea
+		{
+			text-align:left;
+		}
+		
+		input[type=reset]
+		{				
+			background-color:#ffff00;			
+		}
+		
+		.buttons{
+			padding: .5em;
+			width:7em;	
+			box-shadow:3px 3px 3px #000;			
+		}

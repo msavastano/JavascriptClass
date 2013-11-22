@@ -1,0 +1,59 @@
+#nav {
+	margin: 0 auto 50px auto;
+	padding: 50px 0 0 172px;
+	width: 852px;
+	min-height: 130px;
+	list-style: none;
+}
+	
+#nav li {
+	margin-right: 15px;
+	width: 100px;
+	float: left;
+}
+	
+#nav a, #nav a:visited, #nav a:hover {
+	width: 100px;
+	height: 59px;
+	overflow: hidden;
+	border: 0;
+	display: block;
+	color: #fff;
+	text-align: center;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.02) 0%, rgba(0, 0, 0, 0.1) 34%, rgba(0, 0, 0, 0.12) 68%, rgba(0, 0, 0, 0.25) 100%) repeat scroll 0 0 transparent;
+	border-radius: 10px 10px 0 0;
+}
+	
+	
+/* Button Colors */
+
+#nav li.button-color-1 a {
+	background-color: #86b9f6;
+	}
+	
+#nav li.button-color-2 a {
+	background-color: #DD7E7E;
+	}
+	
+#nav li.button-color-3 a {
+	background-color: #7EDD87;
+	}
+	
+#nav li.button-color-4 a {
+	background-color: #DDD57E;
+	}
+	
+	
+.contentBox { 	
+	clear: both;
+	width: 300px;
+	border: 1px solid black;
+	margin-top: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	display:none;
+}
+
+html {
+overflow-y:scroll;
+}

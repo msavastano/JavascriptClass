@@ -1,0 +1,88 @@
+body {
+background-color: #fefefe;
+color: #222;
+}
+
+h1 {
+text-align: center;
+color: #369;
+}
+
+.contentBox {
+width: 500px;
+border: 1px solid #111;
+margin: 1em;
+margin-left: auto;
+margin-right: auto;
+padding: 0.5em;
+border-radius: 10px;
+
+}
+
+.scrollBoxWrapper {
+margin-top: 0.5em;
+margin-bottom: 1em;
+padding-left: 0.5em;
+}
+
+.scrollBox {
+height: 150px;
+overflow: auto;
+border:1px solid black;
+padding:3px;
+}
+
+#agreeScroll {
+overflow:hidden;
+}
+
+#agreeScroll span  {
+color:white;
+}
+
+#agreeScroll2 {
+overflow:hidden;
+}
+
+#agreeScroll2 span {
+color:white;
+}
+
+a {
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: none;
+color:red;
+}
+
+#no-agree-span{
+color:red;
+display:none;
+}
+
+.clicked{
+color:red;
+text-decoration:none;
+}
+
+#modalPop{
+display:none;
+position: fixed;
+top: 35%;
+left: 35%;
+text-align:center;
+z-index: 1000;
+width:300px;
+background-color: #369;
+border:1px solid black;
+padding:15px;
+text-align:center;
+border-radius: 10px;
+color:#fff;
+}
+
+#btnDone{
+padding:10px;
+}

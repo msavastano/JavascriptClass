@@ -1,0 +1,56 @@
+@-webkit-keyframes slidein {
+  from {
+	font-size:1em;
+	opacity: .1;
+	
+  }
+
+  to {
+	font-size:2em;
+	opacity: 1;
+	
+  }
+}
+
+@keyframes slidein {
+  from {
+	font-size:1em;
+	opacity: .1;
+	
+  }
+
+  to {
+	font-size:2em;
+	opacity: 1;
+	
+  }
+}
+
+
+#ad {
+	
+	border-radius: 10px; 
+	box-shadow: 2px 2px 2px 2px #000; 
+	background: linear-gradient(to bottom, #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); /* W3C */
+
+	-webkit-background: linear-gradient(to bottom, #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); /* W3C */
+	-webkit-animation-duration: 3s;
+	-webkit-animation-name: slidein;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	
+	animation-duration: 3s;
+	animation-name: slidein;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	
+	border: 1px solid black;
+	font-size: 1em;
+	width: 600px;
+	height: 80px;
+}
+
+#inner {
+	color:#000fff;
+	font-family:IMPACT;
+}

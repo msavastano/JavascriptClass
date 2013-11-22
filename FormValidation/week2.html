@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" type="text/css" href="styles.css" /> 
+	<head>
+		<title>
+			Simple Form
+		</title>
+		
+	</head>
+<body>
+<div id="formDiv">
+	<form name="simpleForm" id="simpleForm">
+		<p>
+			<label for="fn">First Name</label> <br /><input type = "text" id = "fn"  size="45" name="firstName" /> <span id="errorFn"></span> <br />
+		</p>
+		
+		<p>
+			<label for="ln">Last Name</label> <br /> <input type = "text" id = "ln"  size="45" name="lastName" /> <span id="errorLn"></span> <br />
+		</p>
+		<p>
+			<label for="em">Email<label> <br /> <input type = "text" placeholder = "sam@sample.com" id = "em"  size="45" name="email" /> <span id="errorEm"></span> <br />
+		</p>
+		<p>
+			<label for="com">Comments <br /> <textarea id = "com"  rows="4" cols="45" name="comments"></textarea><span id="errorCom"></span><br />
+		</p>
+		
+		<br />
+		<input type ="button"  class = "buttons" value="Submit" onClick="firNamFun()" />
+		<input type="reset" id="rs" style="display:none"/>
+		
+		<br />
+		</form>
+	</div>
+	<div id="confirmation"> <div>
+<script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>

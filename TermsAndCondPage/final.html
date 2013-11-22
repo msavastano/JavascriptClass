@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> JavaScript - Midterm/Final Exam </title>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+	</head>
+	<body>
+	
+		<h1 id="title"> Agreement Page </h1>
+		<div id="section1" class="contentBox">
+		
+			<p> Please click on the following documents to continue </p>
+			
+			<ul>
+				<li> <a href="#" id="agreeLink1" />Document 1</a> </li>
+				<li> <a href="#" id="agreeLink2" />Document 2</a> </li>
+			</ul>
+		
+		</div>	
+				
+		<div id="section2" class="contentBox">
+			
+			<p> Please click links to view, read and scroll through the following documents, and then agree to the terms and conditions. </p>
+			
+			<div class="scrollBoxWrapper" id="boxWrap">
+				<div id="agreeScroll" class="scrollBox"></div>
+				<div id="agreeScroll2" class="scrollBox"></div>
+			</div>			
+			
+			<form name="mform" id="mainform" action="">
+			
+				<input type="radio" id="agree" name="agreeForm" value="agree" disabled="disabled" /> <label for="agree"> I <strong>agree</strong> to the terms and conditions of the document</label>
+				<br />
+				<input type="radio" id="notagree" name="agreeForm" value="notagree" disabled="disabled" /> <label for="notagree"> I <strong>do not agree</strong> to the terms and conditions of the document</label>
+			
+				<br /><br />
+				<input type="button" id="submitAgreement" value="Review Terms" /> <!--disabled="disabled"--> 
+				<span id="no-agree-span"> </span>
+			</form>
+			</form>
+		</div>		
+		
+		<div id="modalPop"></div>		
+		
+	<script type="text/javascript" src="jquery1-10-2.js"></script>
+	<script type="text/javascript" src="jscr.js"></script>
+	
+	</body>
+</html>				
