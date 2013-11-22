@@ -73,7 +73,7 @@ var statusCodes = {
 		// counter
 		var pageCounter = 1;
 		// url variable
-		var url = "http://127.0.0.1:81/javascriptlabweek7/demo.php?page=";
+		var url = "/JavascriptClass/AJAX/demo.php?page=";
 		
 		
 		
